@@ -1,0 +1,67 @@
+﻿body {
+    background-image: url("Pictures/bground.png");
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+#colnav {
+    background-color: #F26739;
+    width: 17%;
+    height: 100%;
+    display: block;
+    float: left;
+    padding-right: 10px;
+}
+
+#navupper {
+    list-style: none;
+    text-align: right;
+    display: block;
+    margin-right: 10;
+}
+
+    #navupper li a {
+        color: #ffdbcd;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+
+a:link {
+    text-decoration: none;
+}
+
+
+#sites {
+    margin-top: 8em;
+    margin-left: 20px;
+}
+
+#navupper img {
+    width: 10em;
+    height: 4em;
+    margin-bottom: 5em;
+}
+
+.icon {
+    width: 3em;
+    height: 3em;
+}
+
+hr {
+    width: 18em;
+    height: 5px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+p {
+    color: #ffdbcd;
+    line-height: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+

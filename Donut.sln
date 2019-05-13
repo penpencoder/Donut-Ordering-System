@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Donut", "Donut\", "{13963FF6-D409-4442-9A17-C5BFF83DBF1C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59258"
+		Debug.AspNetCompiler.PhysicalPath = "Donut\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59258\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59258"
+		Release.AspNetCompiler.PhysicalPath = "Donut\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59258\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59258"
+		SlnRelativePath = "Donut\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13963FF6-D409-4442-9A17-C5BFF83DBF1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13963FF6-D409-4442-9A17-C5BFF83DBF1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E84EC006-85C1-4090-ADCF-924B45C3B833}
+	EndGlobalSection
+EndGlobal

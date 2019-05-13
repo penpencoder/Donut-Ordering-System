@@ -1,0 +1,125 @@
+﻿#topmain h1 {
+    position: absolute;
+    color: white;
+    margin-left: 9em;
+    margin-top: 1em;
+}
+
+#topmain p {
+    position: absolute;
+    color: white;
+    margin-left: 18em;
+    margin-top: 4.5em;
+}
+
+#midmain {
+    position: absolute;
+    margin-top: 7em;
+    margin-left: 20em;
+}
+
+.slides {
+    width: 12em;
+}
+
+#forms {
+    width: 25%;
+    height: 100%;
+    display: block;
+    float: right;
+    background-color: #F26739;
+    padding-left: 1em;
+}
+
+#1donut, #2donut {
+    display: block;
+}
+
+#forms label {
+    color: white;
+    font-size: 25;
+}
+
+#forms form {
+    line-height: 2.5em;
+}
+
+h1 {
+    margin-bottom: 3;
+    margin-top: 1;
+    color: white;
+}
+
+.nums {
+    width: 3em;
+    height: 2.5em;
+    float: right;
+    margin-right: 25px;
+    background-color: #19191b;
+    color: #F26739;
+    border: 2px solid white font-size:15;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#forms hr {
+    width: 20em;
+}
+
+#name {
+    float: right;
+    height: 3em;
+    width: 17em;
+    margin-top: 0;
+    margin-right: 5px;
+    background-color: #19191b;
+    color: #F26739;
+    border-style: none;
+    font-size: 15;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid white
+}
+
+textarea {
+    background-color: #19191b;
+    color: #F26739;
+    font-size: 15;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid white
+}
+.button {
+    margin-left: 1em;
+    background-color: rgb(153, 153, 153);
+    letter-spacing: 3px;
+    width: 20em;
+    height: 3em;
+    cursor: pointer;
+    font-size: 15;
+    font-weight: bold;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+}
+.topbutton {
+    height: 3em;
+    width: 7em;
+    position: absolute;
+    margin-left: 17em;
+    background-color: rgb(153, 153, 153);
+    letter-spacing: 3px;
+    font-size: 15;
+    font-weight: bold;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+}
+
+p {
+    color: #ffdbcd;
+    line-height: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 15px;
+}

@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="MasterStyleSheet.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="Head_Home" runat="server"></asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="Head_DonutStore" runat="server"></asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="Head_Story" runat="server"></asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="Head_Contact" runat="server"></asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="Head_Login" runat="server"></asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="Head_Form" runat="server"></asp:ContentPlaceHolder>
+    <title>
+        SuzyQ
+    </title>
+</head>
+<body>
+   
+        <div id = "colnav">
+		<ul id = "navupper">
+			<li><center><img src = "Pictures/Donut_logo.png"></center></li>
+			<li><a href = "Home.aspx">Home</a></li>
+			<br>
+			<li><a href = "DonutStore.aspx">Donut Store</a></li>
+			<br>
+			<li><a href = "DonutStory.aspx">Our Story</a></li>
+			<br>
+			<li><a href = "DonutContact.aspx">Contact</a></li>
+		</ul>
+		<div id= "sites">
+			<img src = "Pictures/Facebook-icon.png" class = "icon"/>
+			<img src = "Pictures/Twitter-icon.png" class = "icon"/>
+			
+			<p>969 Wellington St. W
+			<br/>Ottawa, On
+			<br/>613 724 2451
+			<br>
+			<br>
+			Designed by<br/>
+			Stephen Pascual.
+			</p>
+		</div>
+	</div>
+  
+    <asp:ContentPlaceHolder ID="Body_Home" runat="server"></asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="Body_DonutStore" runat="server"></asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="Body_Story" runat="server"></asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="Body_Contact" runat="server"></asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="Body_Login" runat="server"></asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="Body_Form" runat="server"></asp:ContentPlaceHolder>
+</body>
+</html>

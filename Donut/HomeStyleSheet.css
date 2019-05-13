@@ -1,0 +1,62 @@
+﻿
+#main {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    align: center;
+}
+
+
+#logo {
+    width: 40em;
+    height: 15em;
+    margin-left: 15em;
+}
+
+#main button {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 20em;
+    height: 4em;
+    background-color: #F26739;
+    border-radius: 5px;
+    border-color: #F26739;
+}
+
+h3 {
+    color: white;
+    letter-spacing: 3px;
+    height: 21px;
+}
+#ads button {
+    margin-top: 1em;
+    position: absolute;
+    left: 90%;
+    width: 10em;
+    height: 4em;
+    background-color: #F26739;
+    border-radius: 5px;
+    border-color: #F26739;
+}
+    
+    #ads p {
+        border-radius: 5px;
+        padding: 2.5em;
+        position: absolute;
+        margin-top: 5em;
+        background-color: #F26739;
+        margin-left: 83%;
+        animation-name: example;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+    }
+@keyframes example {
+    from {
+        background-color: #F26739;
+    }
+    to {
+        background-image: url("Pictures/bground.png")
+    }
+}

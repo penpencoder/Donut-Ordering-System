@@ -1,0 +1,26 @@
+﻿#formbg form {
+    background-color: #F26739;
+    padding-top: 2.5em;
+    width: 25em;
+    height: 25em;
+    position: absolute;
+    margin-top: 5em;
+    margin-left: 45%;
+    border-radius: 10px;
+}
+
+.textbox {
+    width: 20em;
+    height: 2.5em;
+    border-radius: 5px;
+    background-color: #19191b;
+    color: #F26739;
+    font-size: 15px;
+}
+
+.Button {
+    width: 22.5em;
+    height: 2.5em;
+    border-radius: 5px;
+    color: coral;
+}
